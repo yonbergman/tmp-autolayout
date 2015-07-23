@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+  let smallImage = UIImage(named: "tippy-small")
+  let bigImage = UIImage(named: "tippy-splash")
+
   @IBOutlet weak var imageView: UIImageView!
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -24,7 +27,7 @@ class ViewController: UIViewController {
   @IBOutlet var tap: UITapGestureRecognizer!
 
   @IBAction func didTap(sender: AnyObject) {
-    imageView.image = UIImage(named: "tippy-splash")
+    imageView.image = imageView.image == smallImage ? bigImage : smallImage
   }
 }
 

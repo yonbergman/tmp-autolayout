@@ -26,12 +26,21 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tippy-small" translatesAutoresizingMaskIntoConstraints="NO" id="TAC-uz-Ag4">
                                 <rect key="frame" x="70" y="100" width="37" height="38"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" ambiguous="YES" misplaced="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhT-dN-xh1">
+                                <rect key="frame" x="152" y="108" width="4501" height="21"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. At enim, qua in vita est aliquid mali, ea beata esse non potest. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Dicet pro me ipsa virtus nec dubitabit isti vestro beato M. Illud dico, ea, quae dicat, praeclare inter se cohaerere. Superiores tres erant, quae esse possent, quarum est una sola defensa, eaque vehementer. Hi curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. Verum tamen cum de rebus grandioribus dicas, ipsae res verba rapiunt; Duo Reges: constructio interrete.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="IUe-zG-3vI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="54" id="MM5-tW-lKd"/>
+                            <constraint firstItem="bhT-dN-xh1" firstAttribute="leading" secondItem="TAC-uz-Ag4" secondAttribute="trailing" constant="20" id="ULe-Ug-HX6"/>
                             <constraint firstItem="IUe-zG-3vI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="UqT-Xe-vOv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bhT-dN-xh1" secondAttribute="trailing" constant="20" id="jSo-Ay-DIm"/>
                             <constraint firstItem="TAC-uz-Ag4" firstAttribute="top" secondItem="IUe-zG-3vI" secondAttribute="bottom" constant="32" id="nV2-IX-G6N"/>
                             <constraint firstItem="IUe-zG-3vI" firstAttribute="leading" secondItem="TAC-uz-Ag4" secondAttribute="leading" id="qaV-ew-rbW"/>
                         </constraints>
